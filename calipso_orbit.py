@@ -22,6 +22,7 @@ def calipso_position(time):
     lat = np.degrees(lat)
     return lon, lat
 
+
 def calipso_trajectory(start, end, step_seconds=0.05):
     # pour avoir un point par profil CALIPSO, il faut un point tous les 1/20e de seconde.
     # ou bien un point par seconde et multiplier par 20 ! Ca ne va pas changer grand-chose.

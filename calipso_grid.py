@@ -31,4 +31,5 @@ while now < end:
 
 plt.figure()
 plt.pcolormesh(lonbins, latbins, total_histo.T)
+plt.colorbar()
 plt.show()
